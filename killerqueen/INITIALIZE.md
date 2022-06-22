@@ -15,7 +15,7 @@ Once initialized, overwrite the default `genesis.json` file with genesis state f
 ```go
 $ cd ~/.quicksilverd/config
 
-$ wget https://raw.githubusercontent.com/ingenuity-build/testnets/main/killerqueen/genesis.json
+$ wget -O ~/.quicksilverd/config/genesis.json https://raw.githubusercontent.com/ingenuity-build/testnets/main/killerqueen/genesis.json
 
 ## verify the downloaded file matches the following hash:
 
